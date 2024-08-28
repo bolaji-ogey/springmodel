@@ -9,8 +9,8 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
         <vaadin.version>24.4.7</vaadin.version>
         <exec.mainClass>com.example.application.Application</exec.mainClass>
     </properties>
@@ -18,7 +18,7 @@
      <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.8</version>
+        <version>3.3.2</version>
     </parent>
 
     <repositories>

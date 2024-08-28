@@ -24,7 +24,7 @@ public class DashboardView extends VerticalLayout {
         addClassName("dashboard-view");
         setDefaultHorizontalComponentAlignment(Alignment.CENTER); // <3>
 
-        add(getContactStats(), getCompaniesChart());
+        add(getContactStats(), getCompaniesChart()); 
     }
 
     private Component getContactStats() {
@@ -44,4 +44,6 @@ public class DashboardView extends VerticalLayout {
         chart.getConfiguration().setSeries(dataSeries);
         return chart;
     }
+    
+    
 }
